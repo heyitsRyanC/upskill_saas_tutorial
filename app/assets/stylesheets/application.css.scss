@@ -14,6 +14,7 @@
  *= require_self
  */
 
+// Typography Styles
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
@@ -21,7 +22,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-
+// Backgroung Gradient
 .navbar, .home-callout {
    // gradient provided by UIgradients :) TY! 
   background: #304352;  /* fallback for old browsers */
@@ -29,6 +30,8 @@ h1, h2, h3 {
   background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+// Navbar Styles
 .navbar {
   border: none;
 }
@@ -42,6 +45,7 @@ h1, h2, h3 {
   }
 }
 
+// Homepage stlyes
 .home-callout {
   color: white;
   margin-top: -20px;
